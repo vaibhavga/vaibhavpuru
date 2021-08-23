@@ -1,0 +1,649 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+
+#main {
+    /* height: 100vh; */
+    /* width: 100vw; */
+    display: flex;
+    justify-content: space-between;
+}
+
+#right {
+    /* height: 100vh; */
+    min-width: 35%;
+    background-color: rgb(248, 242, 242);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#right img {
+    height: 15rem;
+    width: 15rem;
+    border-radius: 50%;
+
+}
+
+#left {
+    /* height: 100vh; */
+    /* width: 65%; */
+}
+
+#top {
+    min-height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#name div:nth-child(1) {
+    font-size: 5rem;
+    color: grey;
+    /* justify-self: ; */
+}
+
+#name div:nth-child(2) {
+    font-size: 5rem;
+    color: rgb(255, 174, 0);
+}
+
+#descr {
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid black; */
+}
+
+#dev {
+    color: grey;
+    font-size: 2rem;
+}
+
+#social {
+    display: flex;
+    align-items: center;
+}
+
+.fa {
+    height: 4rem;
+    width: 4rem;
+    padding: 1rem;
+    background-color: rgb(226, 221, 221);
+    font-size: 2rem;
+    border-radius: 0.3rem;
+    margin: 0.3rem;
+    color: rgb(151, 149, 149);
+    border: 1px solid rgb(226, 221, 221);
+
+}
+
+
+.fa:hover {
+    color: rgb(255, 174, 0);
+    background-color: transparent;
+    border: 1px solid rgb(226, 221, 221);
+
+}
+
+hr {
+    width: 53vw;
+    margin-left: 9rem;
+}
+
+#bottom {
+    display: flex;
+    margin: 5rem auto;
+  
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ft {
+    display: flex;
+    flex-direction: column;
+}
+
+.uname {
+    font-size: 1.5rem;
+    color: rgb(95, 95, 95);
+}
+
+.lname {
+    font-size: 1.3rem;
+    color: grey;
+}
+
+/* *********-----Intro css starts here-----********** */
+#intro {
+    display: flex;
+    flex-direction: row;
+   
+}
+
+#intro_left {
+  
+    min-width: 35%;
+    background-color: rgb(255, 247, 247);
+}
+
+#intro_left div {
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 8rem;
+}
+
+#intro_left div h2 {
+    color: rgb(118, 118, 118);
+    font-size: 2.5rem;
+
+}
+
+#intro_left div span {
+    color: grey;
+    font-size: 1.8rem;
+}
+
+#intro_right {
+ 
+    background-color: rgb(255, 253, 253);
+
+}
+
+#intro_right p {
+    margin: 3rem;
+    text-align: justify;
+    font-size: 1.8rem;
+    color: grey;
+    font-weight: 500;
+   
+}
+
+/********-----------------skills css starts here-----------------*********  */
+#skills {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#skills_left {
+ 
+    width: 35vw;
+    background-color: rgba(247, 238, 244, 0.646);
+
+
+}
+
+#skills_left div {
+    font-family: 'Overpass', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 8rem;
+}
+
+#skills_left div h2 {
+    color: rgb(162, 162, 162);
+    font-size: 2.5rem;
+}
+
+#skills_left div span {
+    color: grey;
+    font-size: 1.3rem;
+
+}
+
+#skills_right {
+    width: 65vw;
+    background-color: rgb(255, 251, 251);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+}
+
+.barbg {
+    width: 30rem;
+    height: 1rem;
+    background-color: rgb(206, 206, 206);
+}
+
+.barcl_1 {
+    width: 24rem;
+    height: 1rem;
+    background-color: rgb(255, 179, 16);
+    animation: animate 10s infinite;
+}
+
+.barcl_2 {
+    width: 21rem;
+    height: 1rem;
+    background-color: rgb(255, 179, 16);
+    animation: animate 10s infinite;
+}
+
+.barcl_3 {
+    width: 24rem;
+    height: 1rem;
+    background-color: rgb(255, 179, 16);
+    animation: animate 10s infinite;
+}
+
+.barcl_4 {
+    width: 21rem;
+    height: 1rem;
+    background-color: rgb(255, 179, 16);
+    animation: animate 10s infinite;
+}
+
+.barcl_5 {
+    width: 21rem;
+    height: 1rem;
+    background-color: rgb(255, 179, 16);
+    animation: animate 10s infinite;
+}
+
+.barcl_6 {
+    width: 18rem;
+    height: 1rem;
+    background-color: rgb(255, 179, 16);
+    animation: animate 10s infinite;
+}
+
+.barcl_7 {
+    width: 18rem;
+    height: 1rem;
+    background-color: rgb(255, 179, 16);
+    animation: animate 10s infinite;
+}
+
+.barcl_8 {
+    width: 21rem;
+    height: 1rem;
+    background-color: rgb(255, 179, 16);
+    animation: animate 10s infinite;
+}
+
+.percentage {
+    color: rgb(255, 179, 16);
+    font-size: 2rem;
+}
+
+.bartext {
+    font-size: 2rem;
+    color: rgb(165, 165, 165);
+}
+
+
+.item {
+    margin: 3rem 5rem;
+}
+
+/* *******-------------------profile css starts here----------------------------******* */
+#profile {
+    display: flex;
+}
+
+#profile_left {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 5rem;
+    background-color: rgb(255, 251, 251);
+
+    font-family: 'Overpass', sans-serif;
+    color: rgb(137, 137, 137);
+}
+
+#profile_left h2 {
+    font-weight: 500;
+}
+
+#profile_left span {
+    font-size: 1.3rem;
+}
+
+#profile_right {
+    width: 65%;
+    background-color: rgb(255, 248, 248);
+}
+
+#wrapper {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    margin: 0 5rem 0 0;
+
+}
+
+
+
+.icons {
+    color: rgb(252, 130, 59);
+
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 2rem;
+  
+    padding: 1rem;
+}
+
+.user {
+    margin: 4rem;
+    display: flex;
+  
+}
+
+.data div:nth-child(1) {
+    color: gray;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.data div:nth-child(2) {
+    color: rgb(146, 146, 146);
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* *****--------------------footer css starts here-----------------*********** */
+#main_footer {
+  
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer_right {
+   
+    min-width: 35%;
+    background-color: rgb(248, 242, 242);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer_left {
+   
+    width: 65%;
+}
+
+#footer_bottom {
+    display: flex;
+    margin: 5rem auto;
+   align-items: center;
+    justify-content: space-around;
+}
+
+#footer_right div:nth-child(1) {
+    color: gray;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#footer_right div:nth-child(2) {
+    color: rgb(104, 104, 104);
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#footer_right {
+    padding: 10rem;
+    display: flex;
+    align-items: flex-end;
+}
+
+#footer_left {
+    padding: 10rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(255, 254, 254);
+}
+
+/* ***********---------------media query starts here----------------------***************/
+@media (max-width:1167px) {
+    html {
+        font-size: 8px;
+    }
+
+
+    #main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        /* border: 2px solid red; */
+    }
+
+    #right {
+        /* border: 2px solid green; */
+        /* height: 30vh; */
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #right img {
+        margin: 5rem;
+    }
+
+    #left {
+        /* height: auto; */
+        /* border: 2px solid blue; */
+        /* width: 100vw; */
+    }
+
+    #top {
+        min-height: 40vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        text-align: center;
+    }
+
+    #name {
+        display: flex;
+        justify-content: space-between;
+    }
+
+  
+
+    hr {
+        margin: auto;
+    }
+
+    /* ****-----------intro media-----------*** */
+    #intro {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #intro_left {
+        display: flex;
+    }
+
+    #intro_left div {
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+
+    #intro_right {
+        width: 100vw;
+    }
+
+    #skills {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #skills_left {
+        width: auto;
+        display: flex;
+        background-color: rgb(255, 242, 242);
+    }
+
+    #skills_left div {
+        width: 100%;
+        align-items: center;
+    }
+
+    #skills_right {
+        width: 100%;
+        background-color: rgb(255, 255, 255);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+
+    /* profile mediA */
+    #profile {
+        flex-direction: column;
+    }
+
+    #profile_left {
+        width: 100%;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    #profile_left h2 {
+        font-size: 2rem;
+        color: rgb(103, 103, 103);
+    }
+
+    #profile_left span {
+        font-size: 1.5rem;
+    }
+
+    #profile_right {
+        width: 100%;
+        background-color: white;
+    }
+
+
+    #wrapper {
+        margin: 0 10rem;
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+    }
+
+    /* footer media */
+    #main_footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #footer_right {
+        align-items: center;
+        /* border: 2px solid red; */
+    }
+
+    #footer_left {
+
+        width: 100%;
+        padding: 5rem;
+        display: flex;
+        justify-content: space-around;
+        /* border: 2px solid black; */
+    }
+
+}
+
+
+
+
+@media (max-width: 768px) {
+    .ft:nth-child(2) {
+
+     
+    }
+
+    .ft {
+        margin: 1rem auto;
+    }
+
+    #bottom {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        text-align: center;
+    }
+
+    #skills_right {
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .item {
+        margin: 1rem auto;
+    }
+
+    #footer_left {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        text-align: center;
+    }
+
+  
+    @media (max-width: 576px) {
+        .user {
+            margin: auto;
+           
+        }
+
+        #skills_right {
+            width: 100%;
+            grid-template-columns: 1fr;
+        }
+
+        #bottom {
+            text-align: center;
+            display: block;
+            margin: 0.5rem 0;
+        }
+
+        #wrapper {
+            display: grid;
+            grid-template-columns: 2fr;
+        }
+
+        #footer_left {
+            display: grid;
+            grid-template-columns: 1fr;
+            text-align: center;
+        }
+
+       
+    }
+
+
+}
+
+@keyframes animate {
+    from {
+        width: 0rem;
+    }
+}
